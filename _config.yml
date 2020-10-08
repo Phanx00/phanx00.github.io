@@ -1,26 +1,32 @@
 # Site settings
-title: Thomas Zühlke
+title: Angelo Passaro
 description: 'Business Card Page'
-url: 'http://thomas.zuehlke.family'
+url: '127.0.0.1'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
-bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+profilepic: '/images/profile.png'
+bkimage: '/images/bk2.jpg'
+#google_analytics: UA-XXXXXX-X
+#font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: info@thomas-zuehlke.de
-  twitter_username: thomzuehlke
+  name: 'Angelo Passaro'
+#  email: 
+#  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+  github_username:  angelopassaro
+  working: Student
+  linkedin_username: angpas
+#  meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
 markdown: kramdown
 highlighter: rouge
+
+
+collections:
+  writeup:
+    output: true
 
 sass:
     sass_dir: _sass
