@@ -24,6 +24,11 @@ pre.highlight code,
   white-space: pre-wrap;
 }
 
+.highlight {
+  width: auto;
+  display: inline-block;
+}
+
 .btn,
 .navigation__item a {
   margin: 5px 0;

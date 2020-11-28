@@ -20,8 +20,9 @@ author:
 
 # Build settings
 destination: _site
-markdown: kramdown
-highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
 
 
 collections:
