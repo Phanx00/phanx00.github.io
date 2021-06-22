@@ -1,6 +1,6 @@
 # Site settings
 title: Angelo Passaro
-description: 'Business Card Page'
+# description: 'Business Card Page'
 url: '127.0.0.1'
 baseurl: ''
 profilepic: '/images/profile.png'
@@ -14,7 +14,7 @@ author:
 #  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
   github_username:  angelopassaro
-  working: Cyber Security Analyst
+  working: Cyber Security Analyst | eJPT
   linkedin_username: angpas
 #  meetup_name: Azure-Meetup-Rostock-MV
 
