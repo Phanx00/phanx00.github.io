@@ -5,7 +5,7 @@ url: '127.0.0.1'
 baseurl: ''
 profilepic: '/images/profile.png'
 bkimage: '/images/bk2.jpg'
-#google_analytics: UA-XXXXXX-X
+google_analytics: G-MWZHCKRB00
 #font_awesome: 'XXXXXXXXXX.js'
 
 author:
