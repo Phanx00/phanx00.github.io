@@ -1,0 +1,28 @@
+---
+layout: default
+robots: noindex
+permalink: /achievements
+---
+
+
+    <ul class="timeline">
+    
+        {% for achievement in site.data.achievements %}
+    
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="img-me" src="{{ achievement.img | prepend: site.baseurl }}" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>{{ achievement.name }}</h4>
+              </div>
+              <div class="timeline-body">
+                {{ achievement.desc | markdownify }}
+                <div style="height: 10px;">
+				  </div>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
